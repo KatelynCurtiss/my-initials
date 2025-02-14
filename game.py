@@ -23,9 +23,9 @@ def handle_events ():
         return True
 
 def draw_initials(screen):
-
+    thickness = 3
     # Draw the lines for the letter K
-    pygame.draw.line(screen, )
+    pygame.draw.line(screen, config.RED, [50, 100], [125, 250], thickness)
 
 
 
