@@ -22,6 +22,16 @@ def handle_events ():
                 return False
         return True
 
+def draw_initials(screen):
+
+    # Draw the lines for the letter K
+    pygame.draw.line(screen, )
+
+
+
+
+    # Draw the lines for the letter C
+
 def main():
     screen = init_game()
     clock = pygame.time.Clock() # Initialize the clock here
